@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Timea Balogh
-email: contact@timeabalogh.com
-description: "Timea Balogh is a Hungarian-American writer and translator with an MFA in Creative Writing from the University of Nevada, Las Vegas."
+title: "Condão Engenharia Ambiental"
+email: bruna@condao.com.br
+description: "Avenida Adolpho Massaglia, 481, Bairro Vossoroca, Sorocaba/SP"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: TimeaRozalia
+# twitter_username: TimeaRozalia
 # github_username:  garrefa
 
 # Build settings
@@ -39,9 +39,10 @@ defaults:
       image: true
 
 header_pages:
-  - magazines.markdown
-  - awards.markdown
-  - miscellanea.markdown
+  - condao.markdown
+  - servicos.markdown
+  - contato.markdown
+  # - blog.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
